@@ -7,7 +7,7 @@ LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DA
 LABEL maintainer="thelamer"
 
 # title
-ENV TITLE="Ubuntu XFCE"
+ENV TITLE="Ubuntu Cinnamon"
 
 RUN \
   echo "**** add icon ****" && \
@@ -20,21 +20,12 @@ RUN \
   DEBIAN_FRONTEND=noninteractive \
   apt-get install --no-install-recommends -y \
     chromium \
-    mousepad \
-    xfce4-terminal \
-    xfce4 \
-    xubuntu-default-settings \
-    xubuntu-icon-theme && \
-  echo "**** xfce tweaks ****" && \
+    cinnamon-desktop-environment \
+    cinnamon-l10n && \
+  echo "**** cinnamon tweaks ****" && \
   sed -i \
     's#^Exec=.*#Exec=/usr/local/bin/wrapped-chromium#g' \
     /usr/share/applications/chromium.desktop && \
-  mv \
-    /usr/bin/exo-open \
-    /usr/bin/exo-open-real && \
-  mv \
-    /usr/bin/thunar \
-    /usr/bin/thunar-real && \
   mv \
     /usr/bin/chromium \
     /usr/bin/chromium-browser && \

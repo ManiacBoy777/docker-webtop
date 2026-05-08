@@ -82,7 +82,6 @@ docker-compose-plugin                                                         5.
 dpkg                                                                          1.23.7ubuntu1                            deb                         
 dunst                                                                         1.12.2-1build1                           deb                         
 e2fsprogs                                                                     1.47.2-3ubuntu4                          deb                         
-elementary-xfce-icon-theme                                                    0.22-1                                   deb                         
 emacsen-common                                                                3.0.8build1                              deb                         
 evdev                                                                         1.9.3                                    python                      
 exo-utils                                                                     4.20.0-1build1                           deb                         
@@ -1068,14 +1067,6 @@ libxdamage1                                                                   1:
 libxdmcp6                                                                     1:1.1.5-2                                deb                         
 libxdo3                                                                       1:3.20160805.1-5.1build1                 deb                         
 libxext6                                                                      2:1.3.4-1build3                          deb                         
-libxfce4panel-2.0-4                                                           4.20.7-1                                 deb                         
-libxfce4ui-2-0                                                                4.20.2-1                                 deb                         
-libxfce4ui-common                                                             4.20.2-1                                 deb                         
-libxfce4ui-utils                                                              4.20.2-1                                 deb                         
-libxfce4util-common                                                           4.20.1-1build1                           deb                         
-libxfce4util7                                                                 4.20.1-1build1                           deb                         
-libxfce4windowing-0-0                                                         4.20.5-1                                 deb                         
-libxfce4windowing-common                                                      4.20.5-1                                 deb                         
 libxfconf-0-3                                                                 4.20.0-1build1                           deb                         
 libxfixes3                                                                    1:6.0.0-2build2                          deb                         
 libxfont2                                                                     1:2.0.6-2                                deb                         
@@ -1167,8 +1158,6 @@ platformdirs                                                                  4.
 plymouth                                                                      24.004.60+git20250831.4a3c171d-0ubuntu8  deb                         
 plymouth-label                                                                24.004.60+git20250831.4a3c171d-0ubuntu8  deb                         
 plymouth-theme-ubuntu-text                                                    24.004.60+git20250831.4a3c171d-0ubuntu8  deb                         
-plymouth-theme-xubuntu-logo                                                   26.04.1                                  deb                         
-plymouth-theme-xubuntu-text                                                   26.04.1                                  deb                         
 polkitd                                                                       127-2ubuntu1                             deb                         
 poppler-data                                                                  0.4.12-1build1                           deb                         
 procps                                                                        2:4.0.4-9ubuntu1                         deb                         
@@ -1291,14 +1280,6 @@ xclip                                                                         0.
 xcvt                                                                          0.1.3-1build1                            deb                         
 xdg-utils                                                                     1.2.1-2ubuntu2                           deb                         
 xdotool                                                                       1:3.20160805.1-5.1build1                 deb                         
-xfce4                                                                         4.20.1                                   deb                         
-xfce4-appfinder                                                               4.20.0-2build1                           deb                         
-xfce4-helpers                                                                 4.20.1-1ubuntu2                          deb                         
-xfce4-panel                                                                   4.20.7-1                                 deb                         
-xfce4-pulseaudio-plugin                                                       0.5.1-1                                  deb                         
-xfce4-session                                                                 4.20.4-1                                 deb                         
-xfce4-settings                                                                4.20.1-1ubuntu2                          deb                         
-xfce4-terminal                                                                1.1.5-1                                  deb                         
 xfconf                                                                        4.20.0-1build1                           deb                         
 xfdesktop4                                                                    4.20.1-1ubuntu2                          deb                         
 xfdesktop4-data                                                               4.20.1-1ubuntu2                          deb                         
@@ -1320,10 +1301,6 @@ xserver-xorg-video-qxl                                                        0.
 xserver-xorg-video-radeon                                                     1:22.0.0-1build2                         deb                         
 xsettingsd                                                                    1.0.2-1build2                            deb                         
 xterm                                                                         407-1ubuntu1                             deb                         
-xubuntu-artwork                                                               26.04.1                                  deb                         
-xubuntu-default-settings                                                      26.04                                    deb                         
-xubuntu-icon-theme                                                            26.04.1                                  deb                         
-xubuntu-wallpapers                                                            26.04.1                                  deb                         
 xutils                                                                        1:7.7+26ubuntu1                          deb                         
 xvfb                                                                          2:21.1.22-1ubuntu1                       deb                         
 xwayland                                                                      2:24.1.10-1                              deb                         
@@ -1332,3 +1309,4 @@ zipp                                                                          3.
 zipp                                                                          3.23.0                                   python                      
 zlib1g                                                                        1:1.3.dfsg+really1.3.1-1ubuntu3          deb                         
 zstd                                                                          1.5.7+dfsg-3                             deb                         
+cinnamon-desktop-environment                                         latest                                   deb
